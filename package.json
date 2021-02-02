@@ -1,0 +1,16 @@
+{
+  "name": "node-mail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sri Hari Vishnu",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.11.0",
+    "fastify-static": "^3.4.0",
+    "nodemailer": "^6.4.17"
+  }
+}

@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Mailer System</title>
+        <style>
+            .prompt {
+                font-size: 30px;
+                color: rgb(58, 1, 1);
+                font-weight: bold;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .container {
+                width: 100%;
+            }
+            .left-pane {
+                text-align: center;
+            }
+            .right-pane {
+                text-align: center;
+            }
+            .submit-name {
+                clear: both;
+                margin-top: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+<body style="background-color:lime;">
+    <h1 style="font-size:70px;text-align:center;">Welcome to Mailer</h1>
+
+    <form method='GET' action="/getemail">
+        <div class="container">
+
+            <div class="prompt left-pane">
+                <span>Sender Mail:</span>
+            </div>
+            <div class="right-pane">
+                <input type="text" id="sendermail" name="sendermail" />
+            </div>
+
+            <div class="prompt left-pane">
+                <span>Sender Mail Password:</span>
+            </div>
+            <div class="right-pane">
+                <input type="text" id="sendermailpassword" name="sendermailpassword" />
+            </div>
+
+            <div class="prompt left-pane">
+                <span>Reciever Mail:</span>
+            </div>
+            <div class="right-pane">
+                <input type="text" id="recievermail" name="recievermail" />
+            </div>
+
+            <div class="prompt left-pane">
+                <span>Subject:</span>
+            </div>
+            <div class="right-pane">
+                <input type="text" id="sub" name="sub" />
+            </div>
+
+            <div class="prompt left-pane">
+                <span>Message:</span>
+            </div>
+            <div class="right-pane">
+                <input type="text" id="message" name="message" />
+            </div>
+
+        </div>
+        <div class="submit-name">
+            <input type="submit" value="Submit" />
+        </div>
+        </div>
+    </form>
+</body>
+</html>
